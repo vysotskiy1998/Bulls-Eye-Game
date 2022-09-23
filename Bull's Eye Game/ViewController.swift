@@ -111,9 +111,9 @@ class ViewController: UIViewController {
                 self.startNewRound()
                 
             })
-//        if round > 5 {
-//            startNewGame()
-//        }
+        if round > 5 {
+            startNewGame()
+        }
     
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
